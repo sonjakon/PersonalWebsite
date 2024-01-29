@@ -1,0 +1,87 @@
+html {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('/Merriweather/Merriweather-Regular.ttf') format('ttf');
+}
+
+nav {
+    overflow: hidden;
+    font-size: 23px;
+}
+
+.navlogo {
+    float: left;
+    color: #367738;
+    font-size: 25px;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px 15px;
+    text-decoration: underline;
+    text-decoration-color: #367738;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+header .name {
+    float: left;
+    color: #333;
+    font-size: 42px;
+    margin-top: 50px;
+}
+
+header .job-title {
+    float: right;
+    color: #ababab;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #c5c5c5;
+    margin-top: 90px;
+}
+
+section {
+    display: flex;
+    padding: 20px;
+}
+
+.content-right {
+    flex: 2;
+    margin-top: 0px;
+    margin-left: 0px;
+    background: #ababab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 300px;
+}
+
+.content-left {
+    flex: 2;
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-left: 45px;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+}
