@@ -4,11 +4,6 @@ html {
     margin-right: 5%;
 }
 
-@font-face {
-    font-family: 'Merriweather';
-    src: url('/Merriweather/Merriweather-Regular.ttf') format('ttf');
-}
-
 nav {
     overflow: hidden;
     font-size: 23px;
