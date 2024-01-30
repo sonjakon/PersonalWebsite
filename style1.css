@@ -75,12 +75,12 @@ img {
 
 .content-right {
     flex: 2;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: 300px;
     margin-right: 150px;
 }
 
 p {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
