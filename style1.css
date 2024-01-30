@@ -4,6 +4,10 @@ html {
     margin-right: 5%;
 }
 
+body {
+    font-family: 'Merriweather', serif;
+}
+
 nav {
     overflow: hidden;
     font-size: 23px;
@@ -71,7 +75,7 @@ img {
 
 .content-right {
     flex: 2;
-    margin-top: 65px;
+    margin-top: 20px;
     margin-left: 300px;
     margin-right: 150px;
 }

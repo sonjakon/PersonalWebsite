@@ -4,6 +4,10 @@ html {
     margin-right: 5%;
 }
 
+body {
+    font-family: 'Merriweather', serif;
+}
+
 nav {
     overflow: hidden;
     font-size: 23px;
