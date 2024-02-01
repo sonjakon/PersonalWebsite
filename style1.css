@@ -337,39 +337,28 @@ p {
 
     section {
         flex-direction: column;
-        /* Change to column layout on mobile */
         align-items: center;
-        /* Center items vertically */
         margin-top: 2px;
     }
 
     .content-left {
         margin-left: 0;
-        /* Reset margin */
         margin-top: 20px;
-        /* Adjust margin as needed */
     }
 
     img {
         width: 100%;
-        /* Make the image fill the entire width */
         height: auto;
-        /* Maintain aspect ratio */
         margin-bottom: 10px;
-        /* Add space between image and text */
     }
 
     .content-right {
         margin: 2px;
-        /* Reset margin */
         width: 100%;
-        /* Make the content fill the entire width */
         text-align: center;
-        /* Center text */
     }
 
     p {
         font-size: 25px;
-        /* Adjust font size for better readability on mobile */
     }
 }
