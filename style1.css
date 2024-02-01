@@ -85,25 +85,26 @@ p {
     font-size: 35px;
 }
 
-@media (max-width: 2700px) {
+/* Responsive styles*/
+@media (min-width: 1441px) and (max-width: 2561px) {
 
     img {
-        height: 580px;
+        height: 900px;
         width: auto;
     }
 
     p {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .content-right {
-        margin-left: 300px;
+        margin-left: 500px;
         margin-right: 100px;
-        margin-top: 70px;
+        margin-top: 200px;
     }
 }
 
-@media (max-width: 1500px) {
+@media (min-width: 1025px) and (max-width: 1441px) {
 
     body {
         margin-left: 3%;
@@ -111,19 +112,19 @@ p {
     }
 
     .navlogo {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     nav {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     header .name {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     header .job-title {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 60px;
     }
 
@@ -132,28 +133,22 @@ p {
     }
 
     img {
-        height: 500px;
+        height: 550px;
         width: auto;
-    }
-
-    .content-left {
-        margin-left: 1px;
-        margin-top: 1px;
     }
 
     .content-right {
         margin-left: 200px;
-        margin-right: 2px;
-        margin-top: 70px;
+        margin-right: 100px;
+        margin-top: 80px;
     }
 
     p {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
 
-/* Responsive styles for 1024px */
-@media (max-width: 1350px) {
+@media (min-width: 769px) and (max-width: 1025px) {
     body {
         margin-left: 3%;
         margin-right: 3%;
@@ -201,15 +196,29 @@ p {
     }
 }
 
-@media (max-width: 450px) {
+
+@media (min-width: 426px) and (max-width: 769px) {
+
+    p {
+        font-size: 8px;
+    }
+
+    .content-right {
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 426px) {
 
     p {
         font-size: 10px;
     }
 
     .content-right {
-        margin-left: 20px;
+        margin-left: 1px;
         margin-right: 0px;
-        margin-top: 30px;
+        margin-top: 1px;
     }
 }
