@@ -93,11 +93,11 @@ p {
     }
 
     p {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .content-right {
-        margin-left: 500px;
+        margin-left: 200px;
         margin-right: 200px;
         margin-top: 100px;
     }
