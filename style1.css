@@ -89,12 +89,12 @@ p {
 @media (min-width: 1441px) and (max-width: 2561px) {
 
     img {
-        height: 700px;
+        height: 650px;
         width: auto;
     }
 
     p {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .content-right {
