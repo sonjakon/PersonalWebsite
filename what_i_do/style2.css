@@ -192,7 +192,6 @@ p {
         margin-top: 80px;
     }
 
-    /*
     .content-left {
         margin-right: 15px;
         margin-left: 1px;
@@ -208,7 +207,6 @@ p {
     p {
         font-size: 24px;
     }
-    */
 }
 
 @media (min-width: 426px) and (max-width: 769px) {
