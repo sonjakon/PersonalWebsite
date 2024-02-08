@@ -94,19 +94,19 @@ p {
         display: none;
     }
 
-    img {
-        height: 620px;
-        width: auto;
-    }
-
     p {
         font-size: 35px;
     }
 
-    .content-right {
-        margin-left: 300px;
+    .content-left {
+        margin-left: 50px;
         margin-right: 100px;
-        margin-top: 70px;
+    }
+
+    .content-right {
+        margin-left: 220px;
+        margin-right: 50px;
+        margin-top: 40px;
     }
 }
 
