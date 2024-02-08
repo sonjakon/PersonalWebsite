@@ -314,19 +314,17 @@ p {
         /* Change flex-direction to column-reverse */
     }
 
-    /*
     .content-left {
         margin-top: 10px;
         margin-left: 45px;
         margin-right: 45px;
-        
+
     }
 
     .content-right {
         margin-left: 45px;
         margin-top: 10px;
     }
-    */
 
     p {
         font-size: 22px;
