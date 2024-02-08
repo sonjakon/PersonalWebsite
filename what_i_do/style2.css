@@ -316,15 +316,13 @@ p {
     }
 
     .content-left {
-        margin-top: 10px;
-        margin-left: 45px;
-        margin-right: 45px;
-
+        width: 100%;
+        height: auto;
     }
 
     .content-right {
-        margin-left: 45px;
-        margin-top: 10px;
+        width: 100%;
+        height: auto;
     }
 
     p {
