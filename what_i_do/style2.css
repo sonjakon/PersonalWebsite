@@ -258,6 +258,7 @@ p {
 }
 
 @media (min-width: 378px) and (max-width: 426px) {
+
     .nav-links {
         float: right;
         margin: 0;
@@ -310,7 +311,7 @@ p {
     }
 
     section {
-        flex-direction: column-reverse;
+        flex-direction: column;
         /* Change flex-direction to column-reverse */
     }
 
