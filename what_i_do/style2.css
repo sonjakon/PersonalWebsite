@@ -241,6 +241,7 @@ p {
         margin-top: 80px;
     }
 
+    /*
     .content-left {
         margin-right: 100px;
         margin-left: 2px;
@@ -254,5 +255,39 @@ p {
 
     p {
         font-size: 22px;
+    }
+    */
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+
+    .menu-icon {
+        display: none;
+    }
+
+    body {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .navlogo {
+        font-size: 17px;
+    }
+
+    nav {
+        font-size: 15px;
+    }
+
+    header .name {
+        font-size: 32px;
+    }
+
+    header .job-title {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+    hr {
+        margin-top: 80px;
     }
 }
