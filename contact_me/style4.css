@@ -108,3 +108,46 @@ p {
         margin-top: 30px;
     }
 }
+
+@media (min-width: 1025px) and (max-width: 1441px) {
+
+    .menu-icon {
+        display: none;
+    }
+
+    body {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .navlogo {
+        font-size: 16px;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    header .name {
+        font-size: 30px;
+    }
+
+    header .job-title {
+        font-size: 18px;
+        margin-top: 60px;
+    }
+
+    hr {
+        margin-top: 80px;
+    }
+
+    .content-right {
+        margin-left: 200px;
+        margin-right: 100px;
+        margin-top: 80px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+}
