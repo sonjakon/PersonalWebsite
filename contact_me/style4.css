@@ -191,14 +191,15 @@ p {
     }
 
     .content-left {
+        margin-right: 10px;
         margin-left: 1px;
-        margin-top: 1px;
+        margin-top: 40px;
     }
 
     .content-right {
-        margin-left: 100px;
+        margin-left: 5px;
         margin-right: 2px;
-        margin-top: 70px;
+        margin-top: 1px;
     }
 
     p {
