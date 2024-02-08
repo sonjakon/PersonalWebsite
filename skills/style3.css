@@ -86,3 +86,21 @@ p {
     text-align: center;
     font-size: 35px;
 }
+
+/* Responsive styles*/
+@media (min-width: 1441px) and (max-width: 2561px) {
+
+    .menu-icon {
+        display: none;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    .content-right {
+        margin-left: 300px;
+        margin-right: 100px;
+        margin-top: 70px;
+    }
+}

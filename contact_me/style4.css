@@ -84,3 +84,26 @@ p {
     text-align: center;
     font-size: 35px;
 }
+
+/* Responsive styles */
+@media (min-width: 1441px) and (max-width: 2561px) {
+
+    .menu-icon {
+        display: none;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    .content-left {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .content-right {
+        margin-left: 150px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+}
