@@ -332,3 +332,167 @@ p {
         font-size: 25px;
     }
 }
+
+@media (min-width: 321px) and (max-width: 376px) {
+
+
+    .nav-links {
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
+    .nav-links a {
+        display: block;
+        color: #000;
+        text-align: center;
+        padding: 28px;
+        text-decoration: none;
+    }
+
+    .menu-icon {
+        display: none;
+        float: right;
+        font-size: 24px;
+        padding: 15px;
+        display: block;
+    }
+
+    .navtext.responsive .menu-icon {
+        float: right;
+    }
+
+    .navtext.responsive .nav-links {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navlogo {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    header .name {
+        font-size: 28px;
+    }
+
+    hr {
+        margin-top: 155px;
+    }
+
+    header .job-title {
+        margin-top: 25px;
+        font-size: 22px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2px;
+    }
+
+    .content-left {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .content-right {
+        margin: 2px;
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 321px) {
+
+    .nav-links {
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
+    .nav-links a {
+        display: block;
+        color: #000;
+        text-align: center;
+        padding: 18px;
+        text-decoration: none;
+    }
+
+    .menu-icon {
+        display: none;
+        float: right;
+        font-size: 18px;
+        padding: 12px;
+        display: block;
+    }
+
+    .navtext.responsive .menu-icon {
+        float: right;
+    }
+
+    .navtext.responsive .nav-links {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navlogo {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    header .name {
+        font-size: 20px;
+    }
+
+    hr {
+        margin-top: 130px;
+    }
+
+    header .job-title {
+        margin-top: 23px;
+        font-size: 18px;
+        float: left;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2px;
+    }
+
+    .content-left {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .content-right {
+        margin: 2px;
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
