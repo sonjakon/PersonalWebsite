@@ -98,9 +98,15 @@ p {
         font-size: 30px;
     }
 
+    .content-left {
+        margin-right: 150px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
     .content-right {
-        margin-left: 300px;
-        margin-right: 100px;
-        margin-top: 70px;
+        margin-left: 250px;
+        margin-right: 80px;
+        margin-top: 40px;
     }
 }
