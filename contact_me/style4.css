@@ -141,10 +141,16 @@ p {
         margin-top: 80px;
     }
 
+    .content-left {
+        margin-left: 20px;
+        margin-right: 50px;
+        margin-top: 40px;
+    }
+
     .content-right {
-        margin-left: 200px;
-        margin-right: 100px;
-        margin-top: 80px;
+        margin-left: 60px;
+        margin-right: 10px;
+        margin-top: 10px;
     }
 
     p {

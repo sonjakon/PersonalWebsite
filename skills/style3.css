@@ -143,10 +143,16 @@ p {
         margin-top: 80px;
     }
 
+    .content-left {
+        margin-left: 10px;
+        margin-right: 60px;
+        margin-top: 40px;
+    }
+
     .content-right {
-        margin-left: 200px;
-        margin-right: 100px;
-        margin-top: 80px;
+        margin-left: 100px;
+        margin-right: 60px;
+        margin-top: 25px;
     }
 
     p {
