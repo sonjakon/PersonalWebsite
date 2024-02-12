@@ -208,3 +208,132 @@ p {
         font-size: 22px;
     }
 }
+
+@media (min-width: 426px) and (max-width: 769px) {
+
+    .menu-icon {
+        display: none;
+    }
+
+    body {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .navlogo {
+        font-size: 17px;
+    }
+
+    nav {
+        font-size: 15px;
+    }
+
+    header .name {
+        font-size: 32px;
+    }
+
+    header .job-title {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+    hr {
+        margin-top: 80px;
+    }
+
+    .content-left {
+        margin-right: 30px;
+        margin-left: 1px;
+        margin-top: 4px;
+    }
+
+    .content-right {
+        margin-right: 1px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
+
+/*
+@media (min-width: 378px) and (max-width: 426px) {
+
+    .nav-links {
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
+    .nav-links a {
+        display: block;
+        color: #000;
+        text-align: center;
+        padding: 28px;
+        text-decoration: none;
+    }
+
+    .menu-icon {
+        display: none;
+        float: right;
+        font-size: 24px;
+        padding: 15px;
+        display: block;
+    }
+
+    .navtext.responsive .menu-icon {
+        float: right;
+    }
+
+    .navtext.responsive .nav-links {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navlogo {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    header .name {
+        font-size: 30px;
+    }
+
+    hr {
+        margin-top: 150px;
+    }
+
+    header .job-title {
+        margin-top: 30px;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+
+    .content-left {
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        margin-top: 25px;
+    }
+
+    .content-right {
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 23px;
+
+    }
+
+}
+*/
