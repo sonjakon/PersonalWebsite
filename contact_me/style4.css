@@ -24,14 +24,6 @@
 /* Responsive styles */
 @media (min-width: 1441px) and (max-width: 2561px) {
 
-    .menu-icon {
-        display: none;
-    }
-
-    p {
-        font-size: 30px;
-    }
-
     .content-left {
         margin-left: 10px;
         margin-right: 10px;
@@ -47,36 +39,6 @@
 
 @media (min-width: 1025px) and (max-width: 1441px) {
 
-    .menu-icon {
-        display: none;
-    }
-
-    body {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-
-    .navlogo {
-        font-size: 16px;
-    }
-
-    nav {
-        font-size: 14px;
-    }
-
-    header .name {
-        font-size: 30px;
-    }
-
-    header .job-title {
-        font-size: 18px;
-        margin-top: 60px;
-    }
-
-    hr {
-        margin-top: 80px;
-    }
-
     .content-left {
         margin-left: 20px;
         margin-right: 50px;
@@ -88,43 +50,9 @@
         margin-right: 10px;
         margin-top: 10px;
     }
-
-    p {
-        font-size: 28px;
-    }
 }
 
 @media (min-width: 769px) and (max-width: 1025px) {
-
-    .menu-icon {
-        display: none;
-    }
-
-    body {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-
-    .navlogo {
-        font-size: 17px;
-    }
-
-    nav {
-        font-size: 15px;
-    }
-
-    header .name {
-        font-size: 32px;
-    }
-
-    header .job-title {
-        font-size: 20px;
-        margin-top: 60px;
-    }
-
-    hr {
-        margin-top: 80px;
-    }
 
     .content-left {
         margin-right: 50px;
@@ -144,36 +72,6 @@
 
 @media (min-width: 426px) and (max-width: 769px) {
 
-    .menu-icon {
-        display: none;
-    }
-
-    body {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-
-    .navlogo {
-        font-size: 17px;
-    }
-
-    nav {
-        font-size: 15px;
-    }
-
-    header .name {
-        font-size: 32px;
-    }
-
-    header .job-title {
-        font-size: 20px;
-        margin-top: 60px;
-    }
-
-    hr {
-        margin-top: 80px;
-    }
-
     .content-left {
         margin-right: 12px;
         margin-left: 1px;
@@ -184,59 +82,9 @@
         margin-left: 1px;
         margin-top: 1px;
     }
-
-    p {
-        font-size: 22px;
-    }
 }
 
 @media (min-width: 378px) and (max-width: 426px) {
-
-    .nav-links {
-        float: right;
-        margin: 0;
-        padding: 0;
-        display: none;
-    }
-
-    .nav-links a {
-        display: block;
-        color: #000;
-        text-align: center;
-        padding: 28px;
-        text-decoration: none;
-    }
-
-    .menu-icon {
-        display: none;
-        float: right;
-        font-size: 24px;
-        padding: 15px;
-        display: block;
-    }
-
-    .navtext.responsive .menu-icon {
-        float: right;
-    }
-
-    .navtext.responsive .nav-links {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    .navlogo {
-        font-size: 20px;
-        padding-top: 20px;
-    }
-
-    header .name {
-        font-size: 30px;
-    }
-
-    hr {
-        margin-top: 150px;
-    }
 
     header .job-title {
         margin-top: 30px;
@@ -263,64 +111,10 @@
 
     p {
         font-size: 23px;
-
     }
-
 }
 
 @media (min-width: 321px) and (max-width: 376px) {
-
-
-    .nav-links {
-        float: right;
-        margin: 0;
-        padding: 0;
-        display: none;
-    }
-
-    .nav-links a {
-        display: block;
-        color: #000;
-        text-align: center;
-        padding: 28px;
-        text-decoration: none;
-    }
-
-    .menu-icon {
-        display: none;
-        float: right;
-        font-size: 24px;
-        padding: 15px;
-        display: block;
-    }
-
-    .navtext.responsive .menu-icon {
-        float: right;
-    }
-
-    .navtext.responsive .nav-links {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    .navlogo {
-        font-size: 20px;
-        padding-top: 20px;
-    }
-
-    header .name {
-        font-size: 28px;
-    }
-
-    hr {
-        margin-top: 155px;
-    }
-
-    header .job-title {
-        margin-top: 25px;
-        font-size: 22px;
-    }
 
     section {
         flex-direction: column-reverse;
@@ -344,58 +138,6 @@
 }
 
 @media (max-width: 321px) {
-
-    .nav-links {
-        float: right;
-        margin: 0;
-        padding: 0;
-        display: none;
-    }
-
-    .nav-links a {
-        display: block;
-        color: #000;
-        text-align: center;
-        padding: 18px;
-        text-decoration: none;
-    }
-
-    .menu-icon {
-        display: none;
-        float: right;
-        font-size: 18px;
-        padding: 12px;
-        display: block;
-    }
-
-    .navtext.responsive .menu-icon {
-        float: right;
-    }
-
-    .navtext.responsive .nav-links {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    .navlogo {
-        font-size: 18px;
-        padding-top: 15px;
-    }
-
-    header .name {
-        font-size: 20px;
-    }
-
-    hr {
-        margin-top: 130px;
-    }
-
-    header .job-title {
-        margin-top: 23px;
-        font-size: 18px;
-        float: left;
-    }
 
     section {
         flex-direction: column-reverse;
