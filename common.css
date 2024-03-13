@@ -287,6 +287,10 @@ p {
         margin-top: 25px;
         font-size: 22px;
     }
+
+    p {
+        font-size: 23px;
+    }
 }
 
 @media (max-width: 321px) {
@@ -341,5 +345,13 @@ p {
         margin-top: 23px;
         font-size: 18px;
         float: left;
+    }
+
+    section {
+        align-items: center;
+    }
+
+    p {
+        font-size: 20px;
     }
 }
